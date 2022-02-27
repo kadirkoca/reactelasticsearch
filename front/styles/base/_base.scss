@@ -1,0 +1,25 @@
+@import './fontschema';
+@import './settings';
+
+html {
+    font-size: 62.5%;
+    background: $generic-bg;
+}
+
+body {
+    font-size: $s-size;
+    font-family: $font-glacial;
+    background: $generic-bg;
+}
+
+table th{
+    cursor: pointer;
+}
+
+.react-tel-input .form-control {
+    font-size: 1rem !important;
+    line-height: unset !important;
+    height: unset !important;
+    border-radius: 3px !important;
+    width: 100% !important;
+}

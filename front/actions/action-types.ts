@@ -1,0 +1,1 @@
+export const PASS_USER = "PASS_USER"
